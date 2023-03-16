@@ -49,7 +49,7 @@
   }
 
   button:hover {
-    background-color: #ed8acf; /* Green */
+    background-color: #ed8acf; 
     color: white;
   }
   
@@ -69,7 +69,7 @@
     justify-content: space-between;
     margin-bottom: 10px; }
   
-    /* Add some styles to the character-info div */
+    
 #character-info {
   display: flex;
   flex-direction: column;

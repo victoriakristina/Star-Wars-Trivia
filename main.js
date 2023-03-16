@@ -12,7 +12,7 @@ function showCharacter(char) {
     // Get vald image URL
     var imageUrl = getImageUrl(characterName);
   
-    // Create HTML elements for the character's name and image
+    // Create HTML element för character namn och bild
     var nameElement = document.createElement("h3");
     nameElement.innerHTML = characterName;
     var imageElement = document.createElement("img");

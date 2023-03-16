@@ -47,12 +47,12 @@ function showCharacter(char) {
 
   function getImageUrl(characterName) {
     var imageUrls = {
-      "Luke Skywalker": "https://www.toplessrobot.com/wp-content/uploads/2008/10/Episode_4_Luke_Skywalker_1.jpg",
-      "C-3PO": "https://static.wikia.nocookie.net/starwars/images/0/02/C3PO-TROSposter.png",
-      "R2-D2": "https://scifishop.se/wp-content/uploads/2022/05/r2d2-ep2-actionfigur-1-6.jpg",
-      "Darth Vader": "https://s.abcnews.com/images/Entertainment/HT_darth_vader_jef_160715_16x9_992.jpg",
-      "Leia Organa": "https://static.wikia.nocookie.net/fictupedia/images/1/1d/Leia-princess-leia-organa-solo-skywalker-9301321-576-1010.jpg",
-      "Chewbacca": "https://upload.wikimedia.org/wikipedia/en/1/12/Chewbaca_%28Peter_Mayhew%29.png"
+      "Luke Skywalker": "https://media0.giphy.com/media/8evO2CUalQUVWXEj7m/giphy.gif?cid=ecf05e479wh78bqbs6nmdozmsnww37pmaj7gx4k6rlgozlcp&rid=giphy.gif&ct=s",
+      "C-3PO": "https://media1.giphy.com/media/JrMyqcNznjfx8g5sr2/giphy.gif?cid=ecf05e47dhaqwzl8u0xwiidblbe6cqpccnmxok6degyw1ud4&rid=giphy.gif&ct=s",
+      "R2-D2": "https://media2.giphy.com/media/m9YWbV2vuiyvJbtyv1/giphy.gif?cid=ecf05e473wuvb1dg29xqflh23523s6lthc24ci800h9upy4o&rid=giphy.gif&ct=s",
+      "Darth Vader": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDJrYmlpOGhzdm41cHRicjk5aXEzNHp3ZmtnamJzbG5sNWJpN3oxciZjdD1z/SmYqlOh9GtnuAe4SwB/giphy.gif",
+      "Leia Organa": "https://media0.giphy.com/media/K0y6Dr4Q2bPqTOCIzO/giphy.gif?cid=ecf05e47us33fe9rzusfjx7ocpwhzxmfiu6dwegmxjoxnw0g&rid=giphy.gif&ct=s",
+      "Chewbacca": "https://media1.giphy.com/media/H7HvhT7Zwwrs1JwGhX/giphy.gif?cid=ecf05e4750koxqvmspzbge6s5vzl3ohkwcquexbedm8bh0ys&rid=giphy.gif&ct=s"
     };
     return imageUrls[characterName];
   }

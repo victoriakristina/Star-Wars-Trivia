@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Character Trivia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Star Wars Character Trivia</h1>
+    <div class="container">
+      <div class="character-select">
+        <h2>Character 1</h2>
+        <select id="character1" onchange="showCharacter('character1')">
+          <option value="Luke Skywalker">Luke Skywalker</option>
+          <option value="C-3PO">C-3PO</option>
+          <option value="R2-D2">R2-D2</option>
+          <option value="Darth Vader">Darth Vader</option>
+          <option value="Leia Organa">Leia Organa</option>
+          <option value="Chewbacca">Chewbacca</option>
+        </select>
+      </div>
+      <div class="character-select">
+        <h2>Character 2</h2>
+        <select id="character2" onchange="showCharacter('character2')">
+          <option value="Luke Skywalker">Luke Skywalker</option>
+          <option value="C-3PO">C-3PO</option>
+          <option value="R2-D2">R2-D2</option>
+          <option value="Darth Vader">Darth Vader</option>
+          <option value="Leia Organa">Leia Organa</option>
+          <option value="Chewbacca">Chewbacca</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="char_image">
+      <div class="character-image_1" id="character-image_1"> 
+        <img src="https://www.toplessrobot.com/wp-content/uploads/2008/10/Episode_4_Luke_Skywalker_1.jpg" style="width: 250px;">
+      </div>
+      <div class="character-image_2" id="character-image_2">
+        <img src="https://www.toplessrobot.com/wp-content/uploads/2008/10/Episode_4_Luke_Skywalker_1.jpg" style="width: 250px;">
+       </div>
+    </div>
+    
+    <button id="compare-btn" onclick="makeRequests();">Compare characters</button>
+    
+    <div class="comparison-results">
+      <h2>Comparison Results</h2>
+      
+    <div class="char_info">
+      <div class="character-info_1" id="character-info_1"> </div>
+      <div class="character-info_2" id="character-info_2"> </div>
+    </div>
+    <script src="main.js"></script>
+
+    </div>
+  </body>
+</html>
